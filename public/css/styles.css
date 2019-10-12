@@ -1,0 +1,84 @@
+body {
+    font-family: Palatino, serif;
+    text-align: center;
+    background-color: white;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+p {
+    margin-top: 48px;
+}
+
+div {
+    font-style: italic;
+    margin-bottom: 12px;
+}
+
+p::first-letter {
+    font-size: bold;
+    font-variant: small-caps;
+    initial-letter: 2;
+    font-size: 21px;
+}
+
+p.footer::first-letter {
+    font-variant: inherit;
+    initial-letter: inherit;
+    font-size: inherit;
+}
+
+.footer {
+    font-style: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    margin-left: -150px;
+    width: 300px;
+    text-align: center;
+    background-color: white;
+    z-index: 2;
+}
+
+a {
+    color: inherit;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+img {
+    width: 200px;
+}
+
+input {
+    border: none;
+    border-bottom: solid 1px;
+    font-family: inherit;
+    font-style: italic;
+    font-size: 12px;
+}
+
+button {
+    border: none;
+    background: none;
+    font-family: inherit;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:hover {
+    cursor: pointer;
+    color: red;
+}
+
+button:focus, input:focus {
+    outline: none;
+}

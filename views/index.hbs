@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Weather</title>
+        {{>links}}
+        {{>scripts}}
+    </head>
+    <body>
+        {{>header}}
+        <p>{{description}}</p>
+        <form>
+            <input type="text" name="" value="" placeholder="Ciudad de México">
+            <button type="submit" name="button">Search</button>
+        </form>
+        <p class="forecast"></p>
+        <p class="error"></p>
+        {{>footer}}
+    </body>
+</html>

@@ -1,0 +1,25 @@
+{
+  "name": "web-server",
+  "version": "1.0.0",
+  "description": "Web server for complete node course",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "debug": "env-cmd -f ./config/env.local nodemon src/app.js -e js,hbs",
+    "start": "env-cmd -f ./config/env.local node src/app.js"
+  },
+  "keywords": [
+    "express",
+    "weather"
+  ],
+  "author": "David Enriquez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.0.5",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "env-cmd": "^10.0.1"
+  }
+}
