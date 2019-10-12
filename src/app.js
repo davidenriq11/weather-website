@@ -5,6 +5,7 @@ const geocode = require(path.join(__dirname, './utils/geocode'))
 const forecast = require(path.join(__dirname, './utils/forecast'))
 
 const app = express()
+const port = process.env.PORT || 3000
 const public = path.join(__dirname, '../public')
 const partialsPath = path.join(__dirname, '../views/partials')
 
@@ -126,7 +127,6 @@ app.get('*', (req, res) => {
     console.log('Requested', req._parsedOriginalUrl.pathname)
 })
 
-app.listen(3000, () => {
-    console.log('Server is up on port 3000!')
-    console.log('http://localhost:3000')
+app.listen(port, () => {
+    console.log(`Server is up on port ${port}!`)
 })
