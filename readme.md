@@ -35,7 +35,7 @@ Provide a valid address in the home webpage and the app will retrieve the weathe
 
 ## Example
 
-Visit the example page [here](stark-beach-61249.herokuapp.com/).
+Visit the example page [here](http://stark-beach-61249.herokuapp.com/).
 
 ## Acknowledge
 
