@@ -5,7 +5,6 @@ window.addEventListener('load', () => {
     const forecastMessage = document.querySelector('.forecast')
     const errorMessage = document.querySelector('.error')
 
-
     weatherForm.addEventListener('submit', (event) => {
         event.preventDefault()
 
