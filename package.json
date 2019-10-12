@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "debug": "env-cmd -f ./config/env.local nodemon src/app.js -e js,hbs",
-    "start": "env-cmd -f ./config/env.local node src/app.js"
+    "start": "env-cmd -f ./config/env.local node src/app.js",
+    "deploy": "node src/app.js"
   },
   "keywords": [
     "express",
